@@ -391,6 +391,8 @@ footer {
     color:lightblue;
   }
 
+  
+
   @media screen and (max-width: 900px) {
     .text-box3 p {
         font-size: 15px;
@@ -428,7 +430,27 @@ footer {
     .text-box4 p,
     .text-box5 p {
         margin-top: -5%;
+        font-size: 7px;
+        padding-left: 20px;
+    }
+
+    .instaetc {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .text-box1 p,
+    .text-box2 p,
+    .text-box3 p,
+    .text-box4 p,
+    .text-box5 p {
+        margin-top: -5%;
         font-size: 9px;
         padding-left: 20px;
     }
+
   }
+
+
+
