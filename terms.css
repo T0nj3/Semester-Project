@@ -130,6 +130,7 @@ footer {
   align-items: normal;
   font-family: 'Fira Sans Condensed', sans-serif;
   padding-top: 30px;
+  padding-left: 30px;
 }
 
 .text-left p {
@@ -208,5 +209,5 @@ footer {
 }
 
 .text-right h3:hover {
-  color: green;
+  color:lightblue;
 }

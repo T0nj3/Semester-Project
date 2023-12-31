@@ -462,9 +462,12 @@ max-width: 100%;
   }
 
   .text-right h3:hover {
-    color: green;
+    color:lightblue;
   }
 
+  .p:hover {
+    color: lightblue;
+  }
 
 
 
@@ -534,7 +537,7 @@ max-width: 100%;
 
   
     @media screen and (max-width: 450px) {
-        
+
       .container3 {
             display: none;
         }
