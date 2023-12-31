@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get essential information and assistance at Unity Science Museum's Help and Information page. Find details on location, admission, guided tours, opening hours, accessibility, and explore our museum shop. Contact us for more information and plan your visit to our exciting exhibits.">
+    <title>Unity Science Museum / Explore Science and Discovery</title>
+    <link rel="stylesheet" href="help.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Delius+Unicase&family=Finger+Paint&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,400;0,500;0,600;1,300;1,400&family=Kelly+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c208c464c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="search">
+            <form action="Search">
+            </form>
+            <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </button>
+        </div>
+        <div class="instaetc">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </div>
+      <div class="help">
+        <h2>Information and help</h2>
+      </div>
+
+      <div class="information">
+        <div class="Location">
+            <h2>Location</h2>
+            <p>The museum is located at Mølleparken 4, 0459 Oslo</p>
+        </div>
+        <div class="Admission">
+            <h2>Admission</h2>
+            <p>The entrance is free for all.</p>
+        </div>
+        <div class="Tours">
+            <h2>Tours</h2>
+            <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. If you would like to organize a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
+        </div>
+        <div class="Hours">
+            <h2>Hours</h2>
+            <p>Monday: Closed Tuesday: 10:00 – 16:00 Wednesday: 10:00 – 16:00 Thursday: 10:00 – 16:00 Friday: 10:00 – 19:00 Saturday: 9:00 – 16:00 Sunday: 9:00 – 13:00.</p>
+        </div>
+        <div class="Accessibility">
+            <h2>Accesibility</h2>
+            <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired. Food and drink There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+        </div>
+        <div class="Shop" id="culinary">
+            <h2>Shop</h2>
+            <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+        </div>
+
+        <div class="map" id="map">
+            <h2>Map</h2>
+            <iframe
+            class="map"
+            width="500"
+            height="250"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.1394214595468!2d10.753550276832486!3d59.92982866281001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e6c3dab4a69%3A0x443b53e075a787a9!2sM%C3%B8lleparken%204%2C%200459%20Oslo!5e0!3m2!1sno!2sno!4v1703768567534!5m2!1sno!2sno" 
+        ></iframe>
+        </div>
+      </div>
+
+      <div class="contact" id="contact-section">
+        <h2>Contact Us</h2>
+        <form action="handle_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="text-left">
+            <div class="text-left1">
+                <p>Support us</p>
+            </div>
+            <div class="text-left2">
+                <p>Ignite change through the </p>
+                <p>influence of science and</p>
+                <p>educational exploration.</p>
+            </div>
+            <div class="text-left3">
+                <a href="getinvolved.html#support-short">
+                <p>Donate</p>
+            </a>
+            </div>
+           
+        </div>
+        <div class="text-middle">
+            <div class="text-middle1">
+                <p>About</p>
+            </div>
+            <div class="text-middle2">
+                <a href="help.html#contact-section">
+                <p>Contact</p>
+            </a>
+            </div>
+            <div class="text-middle3">
+                <a href="terms.html">
+                <p>Terms and conditions</p>
+            </a>
+            </div>
+            <div class="text-middle4">
+                <a href="privacy.html">
+                <p>Privacy policy</p>
+            </a>
+            </div>
+    
+            <div class="text-middle5">
+                <a href="help.html#culinary">
+                <p>Culinary Corner</p>
+            </a>
+            </div>
+        </div>
+        <div class="text-right">
+            <div class="text-right1">
+               <p> Location</p>
+            </div>
+            <div class="text-right2">
+            <p>Mølleparken 3,</p>
+            <p>0459 Oslo</p>
+            </div>
+            <a href="Index.html">
+            <h3>HOME</h3>
+        </a>
+        </div>
+      </footer>
+
+      
+      </body>
+      </html>
+ 
+      
+   
