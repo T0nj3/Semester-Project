@@ -383,6 +383,7 @@ max-width: 100%;
     align-items: normal;
     font-family: 'Fira Sans Condensed', sans-serif;
     padding-top: 30px;
+    padding-left: 30px;
   }
 
   .text-left p {
@@ -559,5 +560,15 @@ max-width: 100%;
 
           .exhibition p {
             font-size: 40px;
+          }
+
+          .exhibition p,
+          .findus p,
+          .contribute p {
+            font-size: 40px;
+          }
+
+          .container9 p {
+            margin-top: 60%;
           }
     }
