@@ -1,4 +1,4 @@
-![Project Image](/Images/Head.png.jpg)
+![Project Image](/Images/Head.png)
 
 # Unity Science Museum - Semester Project
 
